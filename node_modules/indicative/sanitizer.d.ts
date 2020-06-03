@@ -1,0 +1,7 @@
+/**
+ * @module indicative
+ */
+export { sanitize } from './src/Sanitizer';
+export { extend } from './src/Sanitizer/extend';
+export { sanitizations } from './src/Sanitizer/sanitizations';
+export { SanitizationRulesContract } from 'indicative-rules';

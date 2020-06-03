@@ -1,0 +1,41 @@
+"use strict";
+/**
+ * @module indicative
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+/**
+ * Collection of sanitizations, that can be used to
+ * define sanitization rules.
+ */
+exports.sanitizations = {
+    escape() {
+        return { name: 'escape', args: [] };
+    },
+    lowerCase(args) {
+        return { name: 'lowerCase', args: args || [] };
+    },
+    normalizeEmail(args) {
+        return { name: 'normalizeEmail', args: args || [] };
+    },
+    plural() {
+        return { name: 'plural', args: [] };
+    },
+    singular() {
+        return { name: 'singular', args: [] };
+    },
+    slug() {
+        return { name: 'slug', args: [] };
+    },
+    stripLinks() {
+        return { name: 'stripLinks', args: [] };
+    },
+    stripTags(args) {
+        return { name: 'stripTags', args: args || [] };
+    },
+    trim() {
+        return { name: 'trim', args: [] };
+    },
+    upperCase(args) {
+        return { name: 'upperCase', args: args || [] };
+    },
+};
