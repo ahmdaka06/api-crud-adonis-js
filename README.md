@@ -1,33 +1,9 @@
-<<<<<<< HEAD
-# Adonis API application
+install nodeJS terlebih dahulu
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
+lalu git clone
 
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
+cd api-crud-adonis-js
+npm install
+adonis serve --dev untuk menjalankan aplikasi
 
-## Setup
-
-Use the adonis command to install the blueprint
-
-```bash
-adonis new yardstick --api-only
-```
-
-or manually clone the repo and then run `npm install`.
-
-
-### Migrations
-
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
-```
-=======
-# api-crud-adonis-js
--
->>>>>>> f8d6832049d9286e1cb73cbdc33a04aea7cc8974
+Ini hanya api backend untuk front end menyusul :)
