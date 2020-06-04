@@ -1,0 +1,6 @@
+/**
+ * @module indicative
+ */
+import * as validator from './validator';
+import * as sanitizer from './sanitizer';
+export { validator, sanitizer };
